@@ -1,5 +1,3 @@
-{
-  "tests": [
     {
       "name": "Test1",
       "setup": "",
@@ -10,4 +8,3 @@
       "timeout": 1,
       "points": 100
     }
-}
