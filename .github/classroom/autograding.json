@@ -1,3 +1,5 @@
+{
+  "tests": [
     {
       "name": "Test1",
       "setup": "",
@@ -6,5 +8,97 @@
       "output": "none",
       "comparison": "included",
       "timeout": 1,
-      "points": 100
+      "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 talkingclock.py",
+      "input": "12:00",
+      "output": "none",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "python3 talkingclock.py",
+      "input": "12:00",
+      "output": "none",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "python3 talkingclock.py",
+      "input": "12:00",
+      "output": "none",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "python3 talkingclock.py",
+      "input": "12:00",
+      "output": "none",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test6",
+      "setup": "",
+      "run": "python3 talkingclock.py",
+      "input": "12:00",
+      "output": "none",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test7",
+      "setup": "",
+      "run": "python3 talkingclock.py",
+      "input": "12:00",
+      "output": "none",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test8",
+      "setup": "",
+      "run": "python3 talkingclock.py",
+      "input": "12:00",
+      "output": "none",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test9",
+      "setup": "",
+      "run": "python3 talkingclock.py",
+      "input": "12:00",
+      "output": "none",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "python3 talkingclock.py",
+      "input": "12:00",
+      "output": "none",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
     }
+  ]
+}
