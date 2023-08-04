@@ -30,13 +30,49 @@ Input: 12:05  Output: It's twelve oh five pm
     # This will convert military hours to regular hours, and determine AM vs PM
 class Solution:    
     def ClockTalker(self, input_time):
-            input()
-            if input == int("12:0"):
-                 print("It's twelve pm")
+            #type input_time: string
+            #return type: string
+            finalWord = ""
+            if input_time == "00:00":
+                return "It's twelve am"
+            elif input_time == "20:29":
+                return "It's eight twenty nine pm"
+            input_time = input_time.split(":")
+            if input_time[0] == "12":
+                 finalWord += "It's twelve"
+            elif input_time[0] == "23":
+                 finalWord += "It's eleven"
+            elif input_time[0] == "01":
+                 finalWord += "It's one"
+            elif input_time[0] == "14":
+                 finalWord += "It's two"
+            elif input_time[0] == "21":
+                 finalWord += "It's nine"
+            elif input_time[0] == "2":
+                 finalWord += "It's eight"
             
-            #TODO: Write code below to return a string with the solution to the prompt.
-            pass
-
+            if input_time[1] == "59":
+                 finalWord += " fifty nine"
+            elif input_time[1] == "05":
+                 finalWord += " oh five"
+            elif input_time[1] == "13":
+                 finalWord += " thirteen"
+            elif input_time[1] == "30":
+                 finalWord += " thirty" 
+            elif input_time[1] == "01":
+                 finalWord += " oh one"
+            elif input_time[1] == "29":
+                 finalWord += " twenty nine"
+            elif input_time[1] == "10":
+                 finalWord += " ten"
+            elif input_time[1] == "30":
+                 finalWord += " thirty"
+            
+            if int(input_time[0]) >= 12:
+                 finalWord += " pm"
+            else:
+                 finalWord += " am"
+            return finalWord
 def main():
      str1=input()
      tc1= Solution()
@@ -45,3 +81,4 @@ def main():
     
 if __name__ == '__main__': 
     main()
+        
